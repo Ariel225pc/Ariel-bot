@@ -1,0 +1,11 @@
+{
+  "name": "arielbot",
+  "version": "2.0.0",
+  "private": true,
+  "description": "ARIELBOT - WhatsApp assistant bilingue FR/EN",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {"start": "node index.js", "check": "node --check index.js && node --check src/handler.js && node --check src/commands/core.js"},
+  "engines": {"node": ">=20.0.0"},
+  "dependencies": {"@whiskeysockets/baileys": "^6.7.18", "dotenv": "^16.4.7", "pino": "^9.5.0", "qrcode-terminal": "^0.12.0"}
+}

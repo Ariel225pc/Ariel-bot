@@ -1,0 +1,10 @@
+{
+  "name": "ARIELBOT",
+  "prefix": ".",
+  "language": "fr",
+  "mode": "private",
+  "welcome": true,
+  "antiLink": false,
+  "autoReact": false,
+  "ownerNumber": ""
+}
